@@ -1,0 +1,23 @@
+{
+  "name": "maple-api",
+  "version": "0.0.1",
+  "description": "This api provide a data of game \"MapleStory\"'s jobs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch src --delay 1 --exec ts-node bin/www.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0",
+    "ts-watch": "^1.0.8"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.3.1",
+    "express": "^4.17.1",
+    "express-router": "0.0.1"
+  }
+}
